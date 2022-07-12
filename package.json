@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "http-server",
-    "format": "prettier -w ."
+    "format": "prettier -w .",
+    "cypress:open": "cypress open"
   },
   "author": "",
   "development": [
@@ -14,6 +15,11 @@
     "last 1 safari version"
   ],
   "dependencies": {
-    "browser-sync": "^2.27.5"
+    "browser-sync": "^2.27.5",
+    "cypress": "^10.3.0"
+  },
+  "devDependencies": {
+    "axe-core": "^4.4.2",
+    "cypress-axe": "^1.0.0"
   }
 }
