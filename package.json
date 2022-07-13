@@ -16,10 +16,13 @@
   ],
   "dependencies": {
     "browser-sync": "^2.27.5",
-    "cypress": "^10.3.0"
+    "cypress": "^10.3.0",
+    "node": "^18.5.0",
+    "http-server": "^14.1.1"
   },
   "devDependencies": {
     "axe-core": "^4.4.2",
-    "cypress-axe": "^1.0.0"
+    "cypress-axe": "^1.0.0",
+    "http-server": "^14.1.1"
   }
 }
